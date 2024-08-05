@@ -65,7 +65,9 @@ abstract class BetterPlayerControlsState<T extends StatefulWidget>
   Widget _buildMoreOptionsList() {
     final translations = betterPlayerController!.translations;
     return SingleChildScrollView(
-      // ignore: avoid_unnecessary_containers
+        // ignore: avoid_unnecessary_containers
+        child: Directionality(
+      textDirection: TextDirection.rtl,
       child: Container(
         child: Column(
           children: [
@@ -112,7 +114,7 @@ abstract class BetterPlayerControlsState<T extends StatefulWidget>
           ],
         ),
       ),
-    );
+    ));
   }
 
   Widget _buildMoreOptionsListRow(
