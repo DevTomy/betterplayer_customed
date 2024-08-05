@@ -16,18 +16,18 @@ class BetterPlayerTranslations {
 
   BetterPlayerTranslations(
       {this.languageCode = "en",
-      this.generalDefaultError = "Video can't be played",
-      this.generalNone = "None",
-      this.generalDefault = "Default",
-      this.generalRetry = "Retry",
-      this.playlistLoadingNextVideo = "Loading next video",
-      this.controlsLive = "LIVE",
-      this.controlsNextVideoIn = "Next video in",
-      this.overflowMenuPlaybackSpeed = "Playback speed",
-      this.overflowMenuSubtitles = "Subtitles",
-      this.overflowMenuQuality = "Quality",
-      this.overflowMenuAudioTracks = "Audio",
-      this.qualityAuto = "Auto"});
+      this.generalDefaultError = "خطایی در پخش فیلم رخ داده است",
+      this.generalNone = "یافت نشد",
+      this.generalDefault = "پیشفرض",
+      this.generalRetry = "تلاش مجدد",
+      this.playlistLoadingNextVideo = "درحال بارگزاری قسمت بعد",
+      this.controlsLive = "زنده",
+      this.controlsNextVideoIn = "قسمت بعدی در",
+      this.overflowMenuPlaybackSpeed = "سرعت پخش",
+      this.overflowMenuSubtitles = "زیرنویس",
+      this.overflowMenuQuality = "کیفیت",
+      this.overflowMenuAudioTracks = "صدا",
+      this.qualityAuto = "اتوماتیک"});
 
   factory BetterPlayerTranslations.polish() => BetterPlayerTranslations(
         languageCode: "pl",
