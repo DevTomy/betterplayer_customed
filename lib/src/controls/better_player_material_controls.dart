@@ -152,7 +152,8 @@ class _BetterPlayerMaterialControlsState
           _betterPlayerController!
               .videoPlayerController!.value.errorDescription);
     } else {
-      final textStyle = TextStyle(color: _controlsConfiguration.textColor);
+      final textStyle = TextStyle(
+          color: _controlsConfiguration.textColor, fontFamily: "IranYekan");
       return Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -173,7 +174,8 @@ class _BetterPlayerMaterialControlsState
                 },
                 child: Text(
                   _betterPlayerController!.translations.generalRetry,
-                  style: textStyle.copyWith(fontWeight: FontWeight.bold),
+                  style: textStyle.copyWith(
+                      fontWeight: FontWeight.bold, fontFamily: "IranYekan"),
                 ),
               )
           ],
